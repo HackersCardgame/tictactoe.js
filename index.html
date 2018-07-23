@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <script src="./helperfunctions.js"></script>
+    <script src="./minimax.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body style="font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;">
+
+
+<div>
+<h1>TicTacToe mit Mini-Max Algorithmus<br></h1> <font color=red size=8em>Rekursionstiefe:</font> <input id="depth" type="number" min="0" value="9" style="font-size:24px; width:40; text-align:center;"></input> 
+<br>bei rekursionstiefe 8 kann man nicht mehr gewinnen, bei 5 schon<br><br>
+
+<span><button id=f00>o</button>  <button id=f01>o</button>     <button id=f02>x</button>
+<br><br>
+<button id=f10>x</button>     <button id=f11>o</button>     <button id=f12>o</button>
+<br><br>
+<button id=f20>x</button>     <button id=f21>o</button>     <button id=f22>x</button>
+<br>    <br>
+<div>
+<button onclick="reset()" style="width:200">Reset</button>
+    <br>
+    <p id="output">
+    </p>
+  </body>
+
+<a href="https://github.com/braindef/tictactoe">https://github.com/braindef/tictactoe</a>
+
+<script>
+registerMouselistener();
+drawToHtml();
+
+</script>
+</html>
+
+

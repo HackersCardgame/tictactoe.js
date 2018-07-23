@@ -1,0 +1,13 @@
+
+div {
+  text-align: center;
+  vertical-align: middle;
+}
+
+button, input {
+  width:50;
+  height:50;
+  font-size:30;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
